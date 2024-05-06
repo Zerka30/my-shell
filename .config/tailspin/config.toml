@@ -1,0 +1,66 @@
+[date]
+style = { fg = "magenta" }
+# To shorten the date, uncomment the line below
+# shorten = { to = "␣", style = { fg = "magenta" } }
+
+[time]
+time = { fg = "blue" }
+zone = { fg = "red" }
+# To shorten the time, uncomment the line below
+# shorten = { to = "␣", style = { fg = "blue" } }
+
+[[keywords]]
+words = ['INFO', 'info']
+style = { fg = "white", style = "bold" }
+
+[[keywords]]
+words = ['WARN', 'warn']
+style = { fg = "yellow", style = "bold" }
+
+[[keywords]]
+words = ['ERROR', 'error']
+style = { fg = "red", style = "bold" }
+
+[[keywords]]
+words = ['DEBUG', 'debug']
+style = { fg = "green", style = "bold" }
+
+[number]
+style = { fg = "cyan" }
+
+[ip]
+segment = { fg = "blue", italic = true }
+separator = { fg = "red" }
+
+[uuid]
+segment = { fg = "blue", italic = true }
+separator = { fg = "red" }
+
+[quotes]
+style = { fg = "yellow" }
+token = '"'
+
+[path]
+segment = { fg = "green", italic = true }
+separator = { fg = "yellow" }
+
+[[keywords]]
+words = ['GET', 'get']
+style = { fg = "black", bg = "green", style = "bold" }
+
+[[keywords]]
+words = ['POST', 'post']
+style = { fg = "black", bg = "blue", style = "bold" }
+
+[[keywords]]
+words = ['PUT', 'put']
+style = { fg = "black", bg = "yellow", style = "bold" }
+
+[[keywords]]
+words = ['DELETE', 'delete']
+style = { fg = "black", bg = "red", style = "bold" }
+
+[process]
+name = { fg = "green" }
+separator = { fg = "red" }
+id = { fg = "yellow" }

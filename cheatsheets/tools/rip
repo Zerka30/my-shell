@@ -1,0 +1,11 @@
+# Basic Usage
+rip dir1/ file1
+
+# Undo last deletion
+rip -u
+
+# Print files that has been deleted in current directory
+rip -s
+
+# Combine -u and -s to restore everything printed by -s
+rip -su

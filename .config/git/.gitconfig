@@ -1,0 +1,6 @@
+[user]
+	email = contact.zerka@gmail.com
+	name = Zerka30
+	signingkey = 854E57F2EB3ECB02
+[commit]
+	gpgsign = true

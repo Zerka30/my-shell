@@ -1,0 +1,6 @@
+[user]
+	email = raphael.hien@infomaniak.com
+	name = Raphaël Hien
+	signingkey = 854E57F2EB3ECB02
+[commit]
+	gpgsign = true
